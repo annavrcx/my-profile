@@ -1,0 +1,99 @@
+body { 
+	font-family: Montserrat;
+	text-align: center;
+	background-color: rgb(254, 227, 197);
+	color : rgb(102,45,0);
+	} 
+
+h1, h2 {
+	font-family: Oswald;
+	text-align-last: center;
+	color : rgb(168,95,0);
+	} 
+
+h1 {
+	font-weight: 850;
+	font-size : 35px;
+		} 
+
+h2 { 
+	text-decoration-line: underline;
+	} 
+
+p { 
+	text-align: justify;
+	text-align: center;
+	} 
+
+.btn-blue { 
+	color: white ;
+	background-color: rgb(168,95,0);
+	text-decoration: none; 
+	margin-bottom: 40px;
+	padding: 8px 12px;
+	border : 5px ridge rgb(168,95,0);
+	} 
+
+.btn-blue:hover { 
+	font-size: 17px;
+	color: white;
+	} 
+
+a:hover { 
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	} 
+
+#photo-arrondi { 
+	border-radius: 0%;
+	border: solid rgb(168,95,0);
+	border-width: 4px;
+	border-color: rgb(168,95,0);
+	box-shadow: 3px 3px 3px grey;
+	} 
+
+.card-white { 
+	box-shadow: 5px 5px 5px rgb(200, 200, 200);
+	background-color: rgb(254, 209, 132);
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	margin-bottom: 30px;
+	border-radius: 3%;
+	border: solid;
+	border-width: 5px;
+	border-color: rgb(254, 209, 132);
+	} 
+
+.container { 
+	margin: 35px auto;
+	width: 700px;
+	} 
+
+@media (max-width : 760px) { 
+	.container {
+		width: 600px;
+	 	}  
+	  } 
+
+@media (max-width : 500px) { 
+	.container {
+		width: 400px;
+	 	}  
+	  } 
+
+
+.list-inline {
+	list-style: none;
+	padding-right: 40px; 
+	display: inline;
+	}
+
+#introduction p{ 
+	margin-bottom: 40px;
+	}
+
+
+
+	
